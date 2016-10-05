@@ -1,8 +1,8 @@
 Package: Elbo
 Title: Implements Useful Utilities for my Personal Use
-Version: 0.0.1
-Authors@R: person("Qianqian", "Zhu", 
-    email = "Qianqian.Zhu@roswellpark.org", 
+Version: 0.0.2
+Authors@R: person("Qianqian", "Zhu",
+    email = "Qianqian.Zhu@roswellpark.org",
     role = c("aut", "cre"))
 Description: This is an amazing package that I've invested a really large
     amount of time developing.
