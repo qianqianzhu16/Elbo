@@ -13,7 +13,7 @@ input_rich(pdata_file, exprs_file)
 }
 \value{
 A SummarizedExperiment() containing samples as colData(), and the
-     expression values as assay().
+     expression values as assays().
 }
 \description{
 Capture the semantic meaning of the data that we represent. For instance,

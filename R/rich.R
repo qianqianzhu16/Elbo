@@ -8,7 +8,7 @@
 #' @param exprs_file chracter(1) The path to the expression file.
 #'
 #' @return A SummarizedExperiment() containing samples as colData(), and the
-#'      expression values as assay().
+#'      expression values as assays().
 #'
 #' @importFrom SummarizedExperiment SummarizedExperiment
 #'

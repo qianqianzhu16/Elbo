@@ -15,6 +15,8 @@
 #' @return A data.frame() containing samples as rows and phenotype data and
 #'    expression data as columns.
 #'
+#' @importFrom utils read.csv
+#'
 #' @export
 input_classic <- function(pdata_file, exprs_file){
     pdata <- read.csv(pdata_file, row.names=1, check.names=F)
