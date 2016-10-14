@@ -17,11 +17,7 @@
 #'
 #' @export
 hi <- function(who, how=c("shout", "whisper")) {
-    stopifnot(
-        is.character(who),
-        length(who) == 1,
-        !is.na(who)
-    )
+    stopifnot(is_scalar_character(who))
 
     fun <- switch(match.arg(how), shout=shout, whisper=whisper)
     paste("hello", fun(who), "you have", nchar(who), "letters in your name!")
