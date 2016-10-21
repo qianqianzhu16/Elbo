@@ -7,6 +7,6 @@ shinyServer(function(input, output) {
                    arms=tolower(input$arms), hat=T)
     })
     output$stick2 <- renderPlot({
-        textOutput("YaoSong!")
+        plot(200:1)
     })
 })

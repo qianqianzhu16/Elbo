@@ -2,10 +2,9 @@
 #'
 #' @param x integer(1) left
 #' @seealso
-#'  \url
+#'  \url{https://github.com/EconometricsBySimulation/R-Graphics/blob/master/Stick-Figures/draw.stick.R}
 #' @import plotrix
 #' @export
-
 draw.stick <- function(x,y,scale=1,arms="down",
                        gender="male",lwd=3, clcol="white",
                        face="happy", linecol=gray(.3),
@@ -131,13 +130,14 @@ draw.stick <- function(x,y,scale=1,arms="down",
 
 }
 
-stickyplot <- function(face, gender, arms) {
+#' @export
+stickyplot <- function(face, gender, arms, hat) {
     plot(c(.25,.75), c(0,1), type="n")
     draw.stick(0, 0,
-               face=tolower(input$face),
-               gender=tolower(input$gender),
-               arms=tolower(input$arms),
-               hat=T)
+               face=face,
+               gender=gender,
+               arms=arms,
+               hat=hat)
 }
 
 #' @importFrom shiny runApp

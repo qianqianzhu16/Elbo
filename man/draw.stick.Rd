@@ -14,6 +14,6 @@ draw.stick(x, y, scale = 1, arms = "down", gender = "male", lwd = 3,
 Plot stick figures
 }
 \seealso{
-\url
+\url{https://github.com/EconometricsBySimulation/R-Graphics/blob/master/Stick-Figures/draw.stick.R}
 }
 
